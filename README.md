@@ -1,13 +1,14 @@
 # 这是一个可支持多用户注册和登录使用的待办事项APP。此应用分别由使用React框架开发的待办事项应用以及基于nodejs完成的用户注册和登录系统组成。
 
 ## 项目使用说明:
-- 待办事项应用相关使用说明:
+- 待办事项应用 TodoList 相关使用说明:
     - 首先在nodejs官网 (https://nodejs.org/en/download/) 下载nodejs
     - 然后打开终端
     - 通过执行 ***$ npx create-react-app 项目名称*** 来创建项目
     - 接下来下载yarn (https://classic.yarnpkg.com/en/docs/install/#windows-stable) ，一个资源管理器
     - 然后执行 ***$ yarn add uuid***
     - 最后安装Material-UI: ***$ yarn add @material-ui/core @material-ui/icons***
+    - 通过 ***$ npm start*** 来启动项目
 
 - 用户注册和登录系统相关使用说明:
     - 打开终端
