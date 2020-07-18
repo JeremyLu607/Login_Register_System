@@ -10,7 +10,7 @@
     - 最后安装Material-UI: ***$ yarn add @material-ui/core @material-ui/icons***
     - 通过 ***$ npm start*** 来启动项目
 
-- 用户注册和登录系统相关使用说明:
+- 用户注册和登录系统 Login_Register_Sytem 相关使用说明:
     - 打开终端
     - 安装express-generator脚手架工具来搭建项目工程: ***$ npm install express-generator -g***
     - 接下来创建项目工程，由于会用到ejs模板引擎，所以在执行项目初始化的时候需要加上 -e: ***$ express -e 项目名称***（如已有搭建好的项目就不需要进行这一步的操作）
