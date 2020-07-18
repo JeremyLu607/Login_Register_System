@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>登录</title>
+  <%- include head %>
+</head>
+<body>
+  <h1 style="line-height: 300%; background-color: #ADD8E6">登录</h1>
+  <div style="line-height: 500%;">
+    <form class="outerborder" action="/users/login" method="POST" style="white-space: pre-line;">
+      <input class="borderstyle" type="text" name="username" value="" placeholder="请输入用户名">
+      <input class="borderstyle" type="password" name="password" value="" placeholder="请输入密码">
+      <input class="button button1" type="submit" name="" value="登录">
+    </form>
+    <div>
+      还未拥有账号，<a href="/regist">立即注册</a>！
+    </div>
+  </div>
+</body>
+</html>
